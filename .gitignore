@@ -3,5 +3,6 @@ install
 *.check_cache
 *.log
 */CMakeFiles/*
+.vscode/
 
 export.sh
