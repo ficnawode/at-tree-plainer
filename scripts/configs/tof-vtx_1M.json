@@ -1,0 +1,148 @@
+{
+    "branches": {
+        "RecEventHeader": {
+            "vars": [
+                {
+                    "inName": "M",
+                    "outName": "M_rec",
+                    "type": "int"
+                }
+            ]
+        },
+        "TofHits": {
+            "vars": [
+                {
+                    "inName": "mass2",
+                    "outName": "mass2",
+                    "type": "float"
+                },
+                {
+                    "inName": "l",
+                    "outName": "l_tof",
+                    "type": "float"
+                },
+                {
+                    "inName": "t",
+                    "outName": "t_tof",
+                    "type": "float"
+                },
+                {
+                    "inName": "qp_tof",
+                    "outName": "qp_tof",
+                    "type": "float"
+                },
+                {
+                    "inName": "phi",
+                    "outName": "phi_tof",
+                    "type": "float"
+                }
+            ]
+        },
+        "SimParticles": {
+            "vars": [
+                {
+                    "inName": "mother_id",
+                    "outName": "mother_id_sim",
+                    "type": "int"
+                },
+                {
+                    "inName": "mass",
+                    "outName": "mass",
+                    "type": "float"
+                },
+                {
+                    "inName": "pT",
+                    "outName": "pT_sim",
+                    "type": "float"
+                },
+                {
+                    "inName": "p",
+                    "outName": "p_sim",
+                    "type": "float"
+                },
+                {
+                    "inName": "phi",
+                    "outName": "phi_sim",
+                    "type": "float"
+                },
+                {
+                    "inName": "eta",
+                    "outName": "eta_sim",
+                    "type": "float"
+                },
+                {
+                    "inName": "pid",
+                    "outName": "pid",
+                    "type": "int"
+                }
+            ]
+        },
+        "VtxTracks": {
+            "vars": [
+                {
+                    "inName": "chi2",
+                    "outName": "chi2_vtx",
+                    "type": "float"
+                },
+                {
+                    "inName": "vtx_chi2",
+                    "outName": "vtx_chi2_vtx",
+                    "type": "float"
+                },
+                {
+                    "inName": "ndf",
+                    "outName": "ndf_vtx",
+                    "type": "float"
+                },
+                {
+                    "inName": "px",
+                    "outName": "px",
+                    "type": "float"
+                },
+                {
+                    "inName": "py",
+                    "outName": "py",
+                    "type": "float"
+                },
+                {
+                    "inName": "pz",
+                    "outName": "pz",
+                    "type": "float"
+                },
+                {
+                    "inName": "p",
+                    "outName": "p",
+                    "type": "float"
+                },
+                {
+                    "inName": "eta",
+                    "outName": "eta",
+                    "type": "float"
+                },
+                {
+                    "inName": "pT",
+                    "outName": "pT",
+                    "type": "float"
+                },
+                {
+                    "inName": "phi",
+                    "outName": "phi",
+                    "type": "float"
+                },
+                {
+                    "inName": "qp",
+                    "outName": "qp_vtx",
+                    "type": "float"
+                },
+                {
+                    "inName": "q",
+                    "outName": "q_vtx",
+                    "type": "int"
+                }
+            ]
+        }
+    },
+    "inputFileList": "/lustre/cbm/users/tfic/at_tree_plainer/scripts/configs/filelist_dcm_1M.txt",
+    "outputFileName": "/lustre/cbm/users/tfic/pid_plain_trees/trees/test/PlainTree1M_DCM_tofvtx_12agev.root",
+    "outputBranchName": "Complex"
+}

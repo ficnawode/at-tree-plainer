@@ -6,10 +6,9 @@ mkdir -p $OUTPUT_DIR
 
 #Change the following paths if need be:
 source /cvmfs/fairsoft.gsi.de/debian10/fairsoft/apr22/bin/thisroot.sh
-ANALYSIS_TREE_INSTALL_DIR="/lustre/cbm/users/tfic/AnalysisTree/install"
+source /lustre/cbm/users/tfic/.install/AnalysisTreeQA/DEBUG/bin/AnalysisTreeConfig.sh
 AT_TREE_PLAINER_INSTALL_DIR="/lustre/cbm/users/tfic/at_tree_plainer/install"
 
-LD_LIBRARY_PATH="$ANALYSIS_TREE_INSTALL_DIR/lib:$LD_LIBRARY_PATH"
 LD_LIBRARY_PATH="$AT_TREE_PLAINER_INSTALL_DIR/lib:$LD_LIBRARY_PATH"
 
 echo "$LD_LIBRARY_PATH"
