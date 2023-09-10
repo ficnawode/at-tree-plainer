@@ -21,9 +21,10 @@ if [ $# -ne 1 ]; then
   CONFIG_PATH=$PWD/configs/tof-vtx_1M.json
 fi
 
+
 sbatch --job-name="at_plain"\
         -t 10:00:00 \
         --partition long\
-        --output=$LOG_DIR/out/%j.out.log \
-        --error=$LOG_DIR/error/%j.err.log \
+        --output=$LOG_DIR/%j.out.log \
+        --error=$LOG_DIR/%j.err.log \
         -- $PWD/plain_job.sh $CONFIG_PATH $OUTPUT_DIR
