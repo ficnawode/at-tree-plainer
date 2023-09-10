@@ -141,7 +141,7 @@
             ]
         }
     },
-    "inputFileList": "/lustre/cbm/users/tfic/at_tree_plainer/scripts/configs/filelist_test.txt",
+    "inputFileList": "/lustre/cbm/users/tfic/at_tree_plainer/scripts/configs/filelist.txt",
     "outputFileName": "/lustre/cbm/users/tfic/pid_plain_trees/trees/test/test.root",
     "outputBranchName": "Complex"
 }

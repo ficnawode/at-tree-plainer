@@ -80,6 +80,7 @@ void AtTreePlainer::Exec()
 
             const auto matched_particle_vtx_id =
                 vtx2tof_match_->GetMatchInverted(input_particle.GetId());
+
             auto& matched_particle_vtx = vtxtracks_->GetChannel(matched_particle_vtx_id);
 
             if(matched_particle_vtx_id > 0)
